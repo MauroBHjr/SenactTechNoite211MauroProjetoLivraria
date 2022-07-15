@@ -73,10 +73,4 @@ public class Cliente {
     public String toString() {
         return "Cliente{" + "idCliente=" + idCliente + ", nomeCliente=" + nomeCliente + ", cpfCliente=" + cpfCliente + ", cnpjCliente=" + cnpjCliente + ", enderecoCliente=" + enderecoCliente + ", telefoneCliente=" + telefoneCliente + '}';
     }
-    
-    
-    
-    
-    
-    
 }

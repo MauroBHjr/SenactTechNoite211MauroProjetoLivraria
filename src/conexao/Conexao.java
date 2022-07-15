@@ -13,7 +13,7 @@ import java.sql.SQLException;
  * @author Mauro B H jr
  */
 public class Conexao {
-    //cria constante com endereço do Banco d eDados e Schema
+    //cria constante com endereço do Banco de Dados e Schema
     private static String url = "jdbc:mysql://localhost:3306/devn211";
     //cria constante com user do BD
     private static String user = "root";

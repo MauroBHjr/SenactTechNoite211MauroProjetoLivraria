@@ -16,7 +16,7 @@ public class Conexao {
     //cria constante com endereço do Banco de Dados e Schema
     private static String url = "jdbc:mysql://localhost:3306/devn211";
     //cria constante com user do BD
-    private static String user = "root";
+    private static String user = "livraria";
     //cria uma constante com senha do BD
     private static String pass = "";
     

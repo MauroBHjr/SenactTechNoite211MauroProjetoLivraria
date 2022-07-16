@@ -60,7 +60,7 @@ public class ClienteDAO {
             }
             return clientes;
         } catch (SQLException e) {
-            throw new SQLException("erro ao realizar busca por cliente.\n" + e.getMessage());
+            throw new SQLException("erro ao realizar busca por clientes.\n" + e.getMessage());
         } finally {
             con.close();
             state.close();

@@ -4,9 +4,16 @@
  */
 package dao;
 
+import java.sql.Connection;
+import java.sql.Statement;
+import java.sql.SQLException;
+import java.sql.ResultSet;
+import conexao.Conexao;
+import java.util.ArrayList;
+
 /**
  *
- * @author 182110041
+ * @author Mauro B H Jr
  */
 public class VendaProdutoDAO {
     

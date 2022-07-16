@@ -6,8 +6,26 @@ package dao;
 
 /**
  *
- * @author 182110041
+ * @author Mauro B H Jr
  */
 public class DAOFactory {
+    private static ClienteDAO cDAO = new ClienteDAO();
+    public static ClienteDAO getClienteDAO(){
+        return cDAO;
+    }
     
+    private static LivroDAO lDAO = new LivroDAO();
+    public static LivroDAO getLivroDAO(){
+        return lDAO;
+    }
+    
+    private static EditoraDAO eDAO = new EditoraDAO();
+    public static EditoraDAO getEditoraDAO(){
+        return eDAO;
+    }
+
+    private static VendaProdutoDAO vpDAO = new VendaProdutoDAO();
+    public static VendaProdutoDAO getVendaProdutoDAO(){
+        return vpDAO;
+    }
 }
